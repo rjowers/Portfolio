@@ -1,0 +1,157 @@
+// @import "bulma"
+nav {
+      color: white;
+
+      text-align: center;
+      width: 100%;
+      font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.portfolio-links{
+  height: 40px;
+  width: 100%;
+text-align: center;
+word-spacing: 50px;
+position: absolute;
+padding-top: 25px;
+// top: 20px;
+// background: rgba(0,0,0,0.6);
+
+
+
+
+
+a{
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  border-bottom: solid #bb5000;
+}
+
+}
+
+.landing-img{
+height: 725px;
+width: 100%;
+}
+
+
+@keyframes flickerAnimation {
+  0% {
+    top: 0;
+    opacity: 0;
+  }
+  100% {
+    top: 50px;
+    opacity: 1;
+  }
+}
+
+@-o-keyframes flickerAnimation {
+  from {
+    top: 0px;
+    opacity: 0;
+  }
+  to {
+    top: 50px;
+  }
+}
+
+@-moz-keyframes flickerAnimation {
+  from {
+    top: 0px;
+    opacity: 0;
+  }
+  to {
+    top: 50px;
+  }
+}
+
+@-webkit-keyframes flickerAnimation {
+  from {
+    top: 0px;
+    opacity: 0;
+  }
+  to {
+    top: 50px;
+  }
+}
+
+.Ryan{
+  font-size: 60px;
+  color: black;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.animate-flicker {
+  position: absolute;
+  animation: flickerAnimation 1s;
+  -webkit-animation: flickerAnimation 1s;
+  -moz-animation: flickerAnimation 1s;
+  -o-animation: flickerAnimation 1s;
+  animation-fill-mode: forwards;
+  margin-top: 15%;
+margin-left: 30%;
+
+}
+
+
+@keyframes flickerAnimation2 {
+  0% {
+    bottom: 250px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 300px;
+    opacity: 1;
+  }
+}
+
+@-o-keyframes flickerAnimation2 {
+  from {
+    top: 0px;
+    opacity: 0;
+  }
+  to {
+    top: 200px;
+  }
+}
+
+@-moz-keyframes flickerAnimation2 {
+  from {
+    top: 0px;
+    opacity: 0;
+  }
+  to {
+    top: 200px;
+  }
+}
+
+@-webkit-keyframes flickerAnimation2 {
+  from {
+    top: 0px;
+    opacity: 0;
+  }
+  to {
+    top: 200px;
+  }
+}
+.animate-flicker2 {
+  position: absolute;
+  animation: flickerAnimation2 1s;
+  -webkit-animation: flickerAnimation2 1s;
+  -moz-animation: flickerAnimation2 1s;
+  -o-animation: flickerAnimation2 1s;
+  animation-fill-mode: forwards;
+  margin-left: 30%;
+  margin-top: 10%;
+  color: white;
+  -webkit-animation-delay: .5s; /* Safari 4.0 - 8.0 */
+     animation-delay: .5s;
+
+
+}
+
+.about-me{
+
+}
