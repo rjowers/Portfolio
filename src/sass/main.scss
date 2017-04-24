@@ -93,6 +93,8 @@ a{
   font-size: 60px;
   color: black;
   font-family: 'Rubik Mono One', sans-serif;
+  text-shadow: 2px 2px 0px rgba(255,255,255,.7), 5px 7px 0px rgba(0, 0, 0, 0.1);
+
 }
 
 .animate-flicker {
@@ -177,8 +179,9 @@ margin-left: 30%;
 .about-bullets{
 color: black;
 font-family: 'Rubik Mono One', sans-serif;
-font-size: 28px;
-margin-left: 18%;
+font-size: 18px;
+margin-left: 30%;
+margin-bottom: 5%;
 }
 
 .about-me{
@@ -235,8 +238,82 @@ margin-left: 18%;
   //   text-justify: inter-word;
 }
 
+.projects-intro{
+  height: 300px;
+  width: 100%;
+  background-image: url(mountain-lake.jpg);
+  background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.project-header{
+  text-align: center;
+  padding-top: 10%;
+  font-family: 'Rubik Mono One', sans-serif;
+
+}
 
 
+.projects-container{
+  height: 1300px;
+  width: 100%;
+  border: solid;
+}
+
+.project-heading{
+  text-align: center;
+}
+
+.project-img1{
+  height: 400px;
+  width: 460px;
+  background-image: url(showranker.png);
+ // background-position: center;
+ background-repeat: no-repeat;
+ background-size: contain;
+ display: inline-block;
+ margin-left: 5%;
+
+}
+
+.project-img2{
+  height: 400px;
+  width: 460px;
+  background-image: url(Foto.png);
+ // background-position: center;
+ background-repeat: no-repeat;
+ background-size: contain;
+ display: inline-block;
+ margin-left: 5%;
+
+}
+
+.project-img3{
+  height: 400px;
+  width: 460px;
+  background-image: url(Etsy.png);
+ // background-position: center;
+ background-repeat: no-repeat;
+ background-size: contain;
+ display: inline-block;
+ margin-left: 5%;
+
+}
+
+.project-text{
+  width: 460px;
+  height: 260px;
+  float: right;
+  border: solid;
+  display: inline-block;
+  margin-right: 5%;
+}
+
+.project-title{
+  margin-top: 0px;
+}
 // *,
 // *:before,
 // *:after {
@@ -252,15 +329,11 @@ margin-left: 18%;
   background: rgba(245,245,245,1);
 }
 
-h1 {
-  font-family: 'Pacifico', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-align: center;
-  text-shadow: 2px 2px 0px rgba(255,255,255,.7), 5px 7px 0px rgba(0, 0, 0, 0.1);
-}
+
 
 .contact-header{
+  font-family: 'Rubik Mono One', sans-serif;
   text-align: center;
-  text-shadow: 2px 2px 0px rgba(255,255,255,.7), 5px 7px 0px rgba(0, 0, 0, 0.1);
   color: black;
 }
 
@@ -310,8 +383,40 @@ fieldset {
   background-color: #bfbfbf;
   cursor: pointer;
   font-weight: 400;
+  margin-bottom: 50px;
 }
 
 #submit:hover {
   background-color: rgba(3,201,169,.6);
+}
+
+
+
+
+.footer {
+    height: 150px;
+    background-color: #222;
+    color: #999;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 3%;
+    font-family: 'Lato', sans-serif;
+
+.dev{
+font-weight: bolder;;
+text-transform: uppercase;
+
+}
+
+.name{
+}
+.contact-info{
+   color: #00D6AB;
+   display: inline-block;
+   padding-right: 20px;
+   font-family: 'Lato', sans-serif;
+   text-decoration: none;
+ }
 }
