@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Cool Project</title>
+    <link href="css/hover-min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
@@ -14,11 +15,11 @@
   <body>
     <div class ="landing">
       <nav>
-        <div class ="portfolio-links">
-          <a href="#">About</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
-          <a href="#">Blog</a>
+        <div class ="portfolio-links underline-from-center">
+          <a class="nav-links hvr-underline-from-center" href="#">About</a>
+          <a class="nav-links hvr-underline-from-center" href="#">Projects</a>
+          <a class="nav-links hvr-underline-from-center" href="#">Contact</a>
+          <a class="nav-links hvr-underline-from-center" href="#">Blog</a>
         </div>
       </nav>
 
@@ -33,7 +34,7 @@
     </div>
 
 
-    <img class="down-arrow" src="http://www.pngmart.com/files/3/Down-Arrow-PNG-Free-Download.png"></img>
+    <a href="#"><img class="down-arrow hvr-sink" src="http://www.pngmart.com/files/3/Down-Arrow-PNG-Free-Download.png"></img></a>
 
   </div>
 
@@ -60,24 +61,25 @@
 </div>
 
 <div class="projects-container">
-<h1 class="project-heading">Projects</h1>
+<!-- <h1 class="project-heading">Projects</h1> -->
 
   <div class="first-project">
-    <div class="project-img1" ></div>
+    <div class="project-img1 hvr-grow" ></div>
     <div class="project-text">     <h1 class="project-title">ShowRanker</h1>
           A discussion platform where users can review and rank TV shows. A classmate and I built the website using JavaScript and Node.js. The backend was especially challenging for us as front-end developers. We used HTML, CSS, AngularJS, and Node.js and we implemented TV show data using the TMBD API.
     </div>
+    <!-- <button class="project-link">View the Project</button> -->
   </div>
 
   <div class="first-project">
-    <div class="project-img2" ></div>
+    <div class="project-img2 hvr-grow" ></div>
     <div class="project-text">     <h1 class="project-title">Foto</h1>
 An Instagram-like app that allows users to add photos to their profile and discuss photos. I used Node.js, Express, and Sequelize for the backend and AngularJS for the front-end.
     </div>
   </div>
 
   <div class="first-project">
-    <div class="project-img3"></div>
+    <div class="project-img3 hvr-grow"></div>
     <div class="project-text">     <h1 class="project-title">Etsy Page</h1>
 A recreated pixel perfect Etsy page. For this project, I needed to not only perfectly match a mock up but also have a deep understanding of jQuery DOM manipulation and navigate through a large block of JSON data.
     </div>
