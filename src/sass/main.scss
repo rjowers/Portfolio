@@ -1,4 +1,4 @@
-// @import "bulma";
+@import "bulma";
 
 nav {
       color: white;
@@ -16,7 +16,7 @@ nav {
 text-align: center;
 word-spacing: 50px;
 position: absolute;
-padding-top: 25px;
+padding-top: 3%;
 // top: 20px;
 // background: rgba(0,0,0,0.6);
 
@@ -27,7 +27,7 @@ padding-top: 25px;
 .nav-links{
   font-size: 24px;
   text-decoration: none;
-  color: #006bbb;
+  color: 	white;
   // border-bottom: solid #bb5000;
 }
 
@@ -109,15 +109,29 @@ padding-top: 25px;
 // width: 100%;
 // }
 
-.landing{
-  height: 726px;
+// .landing{
+//   height: 726px;
+//
+//   width: 100%;
+//   background-image: url(mountains.jpg);
+//   background-attachment: fixed;
+//  background-position: center;
+//  background-repeat: no-repeat;
+//  background-size: cover;
+// }
 
+#particles-js{
+  height: 726px;
+  // height: 100%;
   width: 100%;
-  background-image: url(mountains.jpg);
+  background-color: #186cb6;
+  background-image: url("");
   background-attachment: fixed;
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
+  background-position: center;
+
+background-repeat: no-repeat;
+background-size: cover;
+// background-position: 50% 50%;
 }
 
 
@@ -230,47 +244,31 @@ margin-left: 30%;
   -moz-animation: flickerAnimation2 1s;
   -o-animation: flickerAnimation2 1s;
   animation-fill-mode: forwards;
-  margin-left: 30%;
-  margin-top: 30%;
+  // margin-left: 30%;
+  // margin-top: 30%;
+  text-align: center;
   color: white;
   -webkit-animation-delay: .5s; /* Safari 4.0 - 8.0 */
      animation-delay: .5s;
      opacity: .0;
+     margin-top: 15%;
+   margin-left: 30%;
 
 
 }
 
 
-.typed-cursor{
-	opacity: 1;
-	-webkit-animation: blink 0.7s infinite;
-	-moz-animation: blink 0.7s infinite;
-	animation: blink 0.7s infinite;
-}
-@keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
-}
-@-moz-keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
-}
 
 .down-arrow{
-  position: relative;
+  position: absolute;
   height: 80px;
   width: 80px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  top: 635px;
+  // margin-left: auto;
+  // margin-right: auto;
+  // top: 635px;
+  top:87%;
+  left: 46.5%;
 }
 
 img.down-arrow{
@@ -284,18 +282,22 @@ font-family: 'Rubik Mono One', sans-serif;
 font-size: 18px;
 margin-left: 30%;
 margin-bottom: 5%;
+position: absolute;
 }
 
 .about-me{
   height: 726px;
-  width: 100%;
+  // height: 100vh;
+  margin-bottom: 50px;
+  // width: 100%;
+  // display: flex;
 
 
 }
 
 .about-header{
   text-align: center;
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -303,7 +305,7 @@ margin-bottom: 5%;
   margin-bottom: 40px;
   font-size: 35px;
   font-family: 'Rubik Mono One', sans-serif;
-
+  // align-self: flex-start;
   border-bottom: solid #C1D7F9;
 }
 
@@ -311,13 +313,14 @@ margin-bottom: 5%;
 
 .me{
   height: 400px;
-  width: 256px;
-  margin-left: 10%;
+  width: 100px;
+  // margin-left: 5%;
   background-image: url(me.jpg);
  // background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
  display: inline-block;
+ // align-items: center;
 }
 
 .head-text {
@@ -325,22 +328,44 @@ margin-bottom: 5%;
 
 }
 
+.about-container{
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
+}
 
 .about-text {
   // border: solid;
-  width: 55%;
+  // width: 55%;
   height: 400px;
   float: right;
-  margin-right: 5%;
+  // margin-right: 5%;
   display: inline-block;
+  position: relative;
+  white-space: normal;
   font-size: 23px;
   font-family: 'Lato', sans-serif;
-
+  // resize: both;
   // text-align: justify;
   //   text-justify: inter-word;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="me"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="me"] {
+        clear: left;
+    }
+}
+
 .projects-intro{
+
   height: 300px;
   width: 100%;
   background-image: url(mountain-lake.jpg);

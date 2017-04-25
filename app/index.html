@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>My Cool Project</title>
     <link href="css/hover-min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
@@ -14,7 +14,8 @@
   </head>
   <body>
 
-    <div class ="landing">
+    <!-- <div class ="landing"> -->
+    <div id="particles-js" >
       <nav>
         <div class ="portfolio-links underline-from-center">
           <a class="nav-links hvr-underline-from-center" href="#about-me">About</a>
@@ -44,9 +45,9 @@
 <a name="about-me"><div class="about-me"></a>
 <h1 class="about-header">About</h1>
 
-
-  <div class="me"></div>
-  <div class="content about-text">
+<div class="columns about-container">
+  <div class="column is-one-quarter is-offset-1 me"></div>
+  <div class="column about-text is-one-half is-offset-1">
     <p class="head-text">Hello there! My name is Ryan Jowers. I am a Front-End Developer with experience in Legal Affairs.</p>
     <p>
       I spent 2 years working in the legal industry with plans to go to law school. However, during that time,
@@ -56,7 +57,7 @@
       a career as a Front-End Developer.  Check out some of my work below.
     </p>
   </div>
-
+</div>
 </div>
 
 <a name="projects"><div class="projects-intro"></a>
@@ -67,7 +68,7 @@
 <!-- <h1 class="project-heading">Projects</h1> -->
 
   <div class="first-project">
-    <div class="project-img1 hvr-grow" ></div>
+    <a href="https://tiy-ryan-final-project.surge.sh/#!/home"><div class="project-img1 hvr-grow" ></div></a>
     <div class="project-text">     <h1 class="project-title">ShowRanker</h1>
         <p>  A discussion platform where users can review and rank TV shows. A classmate and I built the website using JavaScript and Node.js. The backend was especially challenging for us as front-end developers. We used HTML, CSS, AngularJS, and Node.js and we implemented TV show data using the TMBD API.</p>
     </div>
@@ -75,14 +76,14 @@
   </div>
 
   <div class="first-project">
-    <div class="project-img2 hvr-grow" ></div>
+    <a href="http://tiy-houseofkal-el-hackathon-frontend.surge.sh/#!/home"><div class="project-img2 hvr-grow" ></div></a>
     <div class="project-text">     <h1 class="project-title">Foto</h1>
 <p>An Instagram-like app that allows users to add photos to their profile and discuss photos. I used Node.js, Express, and Sequelize for the backend and AngularJS for the front-end.</p>
     </div>
   </div>
 
   <div class="first-project">
-    <div class="project-img3 hvr-grow"></div>
+    <a href="https://rjowers.github.io/Etsy-Page/"><div class="project-img3 hvr-grow"></div></a>
     <div class="project-text">     <h1 class="project-title">Etsy Page</h1>
 <p>A recreated pixel perfect Etsy page. For this project, I needed to not only perfectly match a mock up but also have a deep understanding of jQuery DOM manipulation and navigate through a large block of JSON data.</p>
     </div>
@@ -123,6 +124,10 @@
 
 </div>
 
+<!-- <div id="particles-js"></div> -->
+
+<!-- <script src="particles.js"></script> -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="jquery.js"></script>
     <script src="typeit.js"></script>
     <script src="js/bundle.js"></script>
