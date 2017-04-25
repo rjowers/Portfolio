@@ -13,12 +13,13 @@
 
   </head>
   <body>
+
     <div class ="landing">
       <nav>
         <div class ="portfolio-links underline-from-center">
-          <a class="nav-links hvr-underline-from-center" href="#">About</a>
-          <a class="nav-links hvr-underline-from-center" href="#">Projects</a>
-          <a class="nav-links hvr-underline-from-center" href="#">Contact</a>
+          <a class="nav-links hvr-underline-from-center" href="#about-me">About</a>
+          <a class="nav-links hvr-underline-from-center" href="#projects">Projects</a>
+          <a class="nav-links hvr-underline-from-center" href="#contact">Contact</a>
           <a class="nav-links hvr-underline-from-center" href="#">Blog</a>
         </div>
       </nav>
@@ -30,6 +31,8 @@
     <div class="Slide">
       <h1 class="Ryan animate-flicker">Ryan Jowers</h1>
       <h1 class="about-bullets animate-flicker2">Web Developer • Pizza Lover • Husband</h1>
+      <!-- <h1 class="about-bullets"></h1> -->
+
 
     </div>
 
@@ -38,7 +41,7 @@
 
   </div>
 
-<div class="about-me">
+<a name="about-me"><div class="about-me"></a>
 <h1 class="about-header">About</h1>
 
 
@@ -56,7 +59,7 @@
 
 </div>
 
-<div class="projects-intro">
+<a name="projects"><div class="projects-intro"></a>
 <h1 class="project-header">Explore my latest work</h1>
 </div>
 
@@ -66,7 +69,7 @@
   <div class="first-project">
     <div class="project-img1 hvr-grow" ></div>
     <div class="project-text">     <h1 class="project-title">ShowRanker</h1>
-          A discussion platform where users can review and rank TV shows. A classmate and I built the website using JavaScript and Node.js. The backend was especially challenging for us as front-end developers. We used HTML, CSS, AngularJS, and Node.js and we implemented TV show data using the TMBD API.
+        <p>  A discussion platform where users can review and rank TV shows. A classmate and I built the website using JavaScript and Node.js. The backend was especially challenging for us as front-end developers. We used HTML, CSS, AngularJS, and Node.js and we implemented TV show data using the TMBD API.</p>
     </div>
     <!-- <button class="project-link">View the Project</button> -->
   </div>
@@ -74,21 +77,24 @@
   <div class="first-project">
     <div class="project-img2 hvr-grow" ></div>
     <div class="project-text">     <h1 class="project-title">Foto</h1>
-An Instagram-like app that allows users to add photos to their profile and discuss photos. I used Node.js, Express, and Sequelize for the backend and AngularJS for the front-end.
+<p>An Instagram-like app that allows users to add photos to their profile and discuss photos. I used Node.js, Express, and Sequelize for the backend and AngularJS for the front-end.</p>
     </div>
   </div>
 
   <div class="first-project">
     <div class="project-img3 hvr-grow"></div>
     <div class="project-text">     <h1 class="project-title">Etsy Page</h1>
-A recreated pixel perfect Etsy page. For this project, I needed to not only perfectly match a mock up but also have a deep understanding of jQuery DOM manipulation and navigate through a large block of JSON data.
+<p>A recreated pixel perfect Etsy page. For this project, I needed to not only perfectly match a mock up but also have a deep understanding of jQuery DOM manipulation and navigate through a large block of JSON data.</p>
     </div>
   </div>
+
+<a class"resume-link" href="https://drive.google.com/file/d/0B-ON8bol8Yp0cjVNV2RaYTBQSjA/view?usp=sharing"><img class="resume hvr-wobble-horizontal" src="resume-icon.png"><img></a>
+<h1 class="resume-title">Resume</h1>
 
 </div>
 
 
-<div class="contact-container">
+<a name="contact"><div class="contact-container"></a>
 
   <h1 class="contact-header"> Drop Me a Line</h1>
 
@@ -117,7 +123,8 @@ A recreated pixel perfect Etsy page. For this project, I needed to not only perf
 
 </div>
 
-
+    <script src="jquery.js"></script>
+    <script src="typeit.js"></script>
     <script src="js/bundle.js"></script>
   </body>
 </html>
