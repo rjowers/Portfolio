@@ -1,5 +1,10 @@
 @import "bulma";
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
       color: white;
 
@@ -192,14 +197,15 @@ background-size: cover;
   -o-animation: flickerAnimation 1s;
   animation-fill-mode: forwards;
   margin-top: 15%;
-margin-left: 30%;
+  text-align: center;
+// margin-left: 30%;
 
 }
 
 
 @keyframes flickerAnimation2 {
   0% {
-    bottom: 250px;
+    bottom: 200px;
     opacity: 0;
   }
   100% {
@@ -210,7 +216,7 @@ margin-left: 30%;
 
 @-o-keyframes flickerAnimation2 {
   from {
-    bottom: 250px;
+    bottom: 200px;
     opacity: 0;
   }
   to {
@@ -220,7 +226,7 @@ margin-left: 30%;
 
 @-moz-keyframes flickerAnimation2 {
   from {
-    bottom: 250px;
+    bottom: 200px;
     opacity: 0;
   }
   to {
@@ -230,7 +236,7 @@ margin-left: 30%;
 
 @-webkit-keyframes flickerAnimation2 {
   from {
-    bottom: 250px;
+    bottom: 200px;
     opacity: 0;
   }
   to {
@@ -245,14 +251,14 @@ margin-left: 30%;
   -o-animation: flickerAnimation2 1s;
   animation-fill-mode: forwards;
   // margin-left: 30%;
-  // margin-top: 30%;
   text-align: center;
   color: white;
   -webkit-animation-delay: .5s; /* Safari 4.0 - 8.0 */
      animation-delay: .5s;
      opacity: .0;
-     margin-top: 15%;
-   margin-left: 30%;
+    //  margin-top: 15%;
+
+
 
 
 }
@@ -276,13 +282,21 @@ img.down-arrow{
   width: 80px;
 }
 
+.Slide{
+  display: flex;
+  justify-content: center;
+
+}
+
 .about-bullets{
 color: black;
 font-family: 'Rubik Mono One', sans-serif;
 font-size: 18px;
-margin-left: 30%;
-margin-bottom: 5%;
+margin-top: 350px;
+// margin-top: 30%;
 position: absolute;
+text-align: center;
+// align-self: center;
 }
 
 .about-me{
@@ -363,6 +377,8 @@ position: absolute;
         clear: left;
     }
 }
+
+
 
 .projects-intro{
 
