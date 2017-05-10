@@ -6,6 +6,21 @@ $(".down-arrow").click(function() {
          scrollTop: $(".about-me").offset().top   }, 1000);
  });
 
+ $(".about").click(function() {
+   $('html, body').animate({
+     scrollTop: $(".about-me").offset().top  }, 1000);
+   });
+
+   $(".projects").click(function() {
+     $('html, body').animate({
+       scrollTop: $(".projects-intro").offset().top  }, 1000);
+     });
+
+     $(".contact").click(function() {
+       $('html, body').animate({
+         scrollTop: $(".footer").offset().top  }, 1000);
+       });
+
 
  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
  particlesJS.load('particles-js', 'assets/particles.json', function() {
